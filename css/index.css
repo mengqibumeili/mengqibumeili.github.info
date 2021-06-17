@@ -1,0 +1,318 @@
+#head_box{
+    width: 100%;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 1);
+    overflow: visible;
+}
+#head_box ul {
+    list-style-type: none;
+    margin-left: 15px;
+}
+
+#head_nav ul li{
+    margin-left: 5px;
+    float: left;
+    line-height: 40px;
+    color: #b0b0b0;
+    font-size: 12px;
+    text-align: center;
+}
+#head_right ul{
+    margin-right: 15px;
+}
+#head_right ul li{
+    text-decoration: none;
+    margin-left: 5px;
+    float: right;
+    line-height: 40px;
+    color: #b0b0b0;
+    font-size: 12px;
+    text-align: center;
+
+}
+#main_head_box{
+    width: 100%;
+    height: 100px;
+    background-color: #ffffff;
+    color: #424242;
+}
+#menu_wrap{
+    width: 1226px;
+    margin: 0 auto;
+    height: 100px;
+}
+#menu_logo {
+    width: 55px;
+    height: 55px;
+    margin-top: 20px;
+    float: left;
+}
+#menu_nav {
+    margin-left: 200px;
+    float: left;
+}
+#menu_nav li{
+    float: left;
+    padding-left:15px;
+    line-height: 100px;
+    text-align: center;
+    color: rgba(0, 0, 0, 1);
+}
+#menu_find{
+    width: 302px;
+    float: right;
+    height: 50px;
+    margin-top: 25px;
+    line-height: 50px;
+    border: 1px solid #f0f0f0;
+    
+}
+#find_bar input{
+    padding-left: 5px;
+    width: 245px;
+    float: left;
+    height: 48px;
+    line-height: 48px;
+    box-sizing: border-box;
+    border: none;
+    
+}
+#go{
+    width: 54px;
+    height: 48px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 900;
+    float: left;
+    border-left: 1px solid #f0f0f0;
+}
+#banner{
+    width: 1226px;
+    height: auto;
+    margin: 0 auto;
+    position: relative;
+}
+#big_banner_wrap{
+    width: 100%;
+    height: 460px;
+    color: #424242;
+    position: relative;
+}
+#banner_menu_wrap{
+    width: 235px;
+    height: 460px;
+    float: left;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding-top: 20px;
+    box-sizing: border-box;
+}
+#banner_menu_wrap li {
+    width: 100%;
+    height: 42px;
+    position: relative;
+    line-height: 40px;
+    padding:0 15px;
+    box-sizing: border-box;
+    
+}
+#banner_menu_wrap li:hover{
+    background-color: rgba(255, 103, 0, 1);
+}
+#banner_menu_wrap li a {
+    font-size: 13px;
+    float: left;
+}
+#banner_menu_wrap li .banner_menu_i {
+    font-size: 20px;
+    float: right;
+}
+#big_banner_pic_wrap{
+    width: 1226px;
+    height: 460px;
+    overflow: hidden;
+    background-color: teal;
+    position: absolute;
+    z-index: -1;
+    /* z-index 指定重叠的图层的顺序; */
+  
+}
+#big_banner_pic_wrap ul{
+    width: 600%;
+    position: absolute;
+    height: 460px;
+}
+#big_banner_pic_wrap li{
+    width: 1226px;
+    height: 460px;
+    float: left;
+}
+#big_banner_change_wrap {
+    width: 961px;
+    height: 460px;
+    position: absolute;
+    top: 0px;
+    left: 250px;
+    color: #fff;
+}
+#big_banner_change_wrap #prev {
+  
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-top: 205px;
+    font-size: 50px;
+    text-align: center;
+}
+#big_banner_change_wrap #next {
+    width: 50px;
+    height: 50px;
+    float: right;
+    margin-top: 205px;
+    font-size: 50px;
+    text-align: center;
+}
+#other_banner_wrap{
+    width: 100%;
+    height: 170px;
+    color: #fff;
+    top: 20px;
+    font-size: 13px;
+    position: relative;
+
+}
+#other_banner_wrap #head_other {
+    width: 235px;
+    height: 170px;
+    float: left;
+    background-color: #5f5750;
+}
+#other_banner_wrap #head_other li{
+    display: block;
+    width: 76px;
+    height: 85px;
+    float: left;
+}
+#other_banner_wrap #head_other #div1 {
+    width: 70px;
+    height: 70px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 5px;
+    border-right: 1px solid #888888;
+    border-bottom: 1px solid #888888;
+}
+#other_banner_wrap #head_other #div1 p {
+    line-height: 40px;
+    text-align: center;
+    font-size: 13px;
+}
+#other_banner_wrap .head_other_ad {
+    width: 316px;
+    height: 170px;
+    float: left;
+    margin-left: 14px;
+    background-color: wheat;
+}
+#head_hot_goods_wrap{
+    position: relative;
+    width: 100%;
+    height: 405px;
+    color: #424242;
+    top: 20px;
+    font-size: 13px;
+}
+#head_hot_goods_wrap #head_hot_goods_title{
+    width: 1226px;
+    height: 60px;
+    line-height: 60px;
+}
+#head_hot_goods_wrap #head_hot_goods_title span{
+    font-size: 25px;
+    font-weight: 100;
+}
+#head_hot_goods_content{
+    width: 1226px;
+    height: 345px;
+}
+#head_hot_goods_content li {
+    width: 235px;
+    height: 300px;
+    float: left;
+    margin-right: 10px; 
+    background-color: #fafafa;
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 20px;
+    font-size: 13px;
+}
+#head_hot_goods_content li a {
+    color: black;
+}
+#head_hot_goods_content li a:nth-child(2){
+    margin: 15px auto;
+    font-size: 13px;
+    color: #333;
+}
+#head_hot_goods_content li a:nth-child(3){
+    font-size: 12px;
+    color: #b0b0b0;
+}
+#head_hot_goods_content li:last-child{
+    margin-left: 0;
+}
+#main_showbox{
+    width: 1226px;
+    height: 688px;
+    position: relative;
+    margin-top: 20px;
+    background-color: #f5f5f5;
+    padding-bottom: 20px;
+}
+#main_showbox #floor_head {
+    width: 1226px;
+    height: 58px;
+    line-height: 65px;
+    padding-left: 15px;
+}
+#main_showbox #floor_head span {
+    font-size: 25px;
+    font-weight: 100;
+    color: #424242;
+    text-align: center;
+}
+#floor_goods_wrap li:first-child{
+    margin-left: 0px;
+    width: 234px;
+    height: 600px;
+    
+}
+#floor_goods_wrap li{
+    margin-top: 10px;
+    width: 235px;
+    height: 300px;
+    float: left;
+    text-align: center;
+    background-color: white;
+    color: black;
+    margin-left: 10px;
+    
+}
+#main_show_box .floor_goods_wrap ul li a{
+    display: block;
+}
+.floor_goods_tips{
+    font-size: 13px;
+    text-align: center;
+    margin: 15px auto;
+    color: #000;
+}
+.floor_goods_price {
+    color: red;
+}
+#foot_box{
+    width: 100%;
+    height: 280px;
+    background-color: #888888;
+    position: relative;
+}
